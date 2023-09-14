@@ -1,0 +1,122 @@
+[
+  {
+    "servicename": "Deep Cleaning",
+    "servicePrice": 5,
+    "summary": "Thorough deep cleaning for your home.",
+    "description": "Our home deep cleaning service includes cleaning every nook and cranny of your house, leaving it spotless.",
+    "imageCover": "home-deep-cleaning.jpg",
+    "category": "home services"
+  },
+  {
+    "servicename": "Furniture",
+    "servicePrice": 15,
+    "summary": "Professional furniture cleaning and maintenance.",
+    "description": "We provide expert furniture cleaning and maintenance services to keep your furniture looking new.",
+    "imageCover": "furniture-cleaning.jpg",
+    "category": "home services"
+  },
+  {
+    "servicename": "Laundry",
+    "servicePrice": 10,
+    "summary": "Convenient laundry service for your garments.",
+    "description": "Our laundry service ensures your clothes are cleaned, folded, and ready for you to wear.",
+    "imageCover": "laundry-service.jpg",
+    "category": "home services"
+  },
+  {
+    "servicename": "Pools",
+    "servicePrice": 40,
+    "summary": "Pool cleaning and maintenance.",
+    "description": "We specialize in pool cleaning and maintenance to keep your pool crystal clear and safe.",
+    "imageCover": "pool-cleaning.jpg",
+    "category": "home services"
+  },
+  {
+    "servicename": "Organizing Cabinets",
+    "servicePrice": 20,
+    "summary": "Efficient cabinet organization services.",
+    "description": "We help you declutter and organize your cabinets, making your kitchen or storage spaces more functional.",
+    "imageCover": "cabinet-organization.jpg",
+    "category": "home services"
+  },
+  {
+    "servicename": "Gardens",
+    "servicePrice": 25,
+    "summary": "Professional garden maintenance and landscaping.",
+    "description": "Our garden services include landscaping, maintenance, and design to enhance your outdoor spaces.",
+    "imageCover": "garden-maintenance.jpg",
+    "category": "home services"
+  },
+  {
+    "servicename": "Deep Cleaning",
+    "servicePrice": 50,
+    "summary": "Thorough deep cleaning for your office space.",
+    "description": "We provide deep cleaning services to ensure a clean and hygienic working environment.",
+    "imageCover": "office-deep-cleaning.jpg",
+    "category": "office services"
+  },
+  {
+    "servicename": "Furniture",
+    "servicePrice": 20,
+    "summary": "Professional office furniture cleaning and maintenance.",
+    "description": "We specialize in cleaning and maintaining office furniture to keep your workspace in top condition.",
+    "imageCover": "office-furniture-cleaning.jpg",
+    "category": "office services"
+  },
+  {
+    "servicename": "Windows",
+    "servicePrice": 15,
+    "summary": "Efficient window cleaning for homes and offices.",
+    "description": "Our window cleaning service ensures crystal clear windows for a brighter space.",
+    "imageCover": "window-cleaning.jpg",
+    "category": "office services"
+  },
+  {
+    "servicename": "Deep Cleaning",
+    "servicePrice": 35,
+    "summary": "Thorough deep cleaning for your vehicle.",
+    "description": "We provide comprehensive cleaning for your vehicle, inside and out.",
+    "imageCover": "vehicle-deep-cleaning.jpg",
+    "category": "vehicle services"
+  },
+  {
+    "servicename": "Furniture",
+    "servicePrice": 12,
+    "summary": "Professional cleaning for vehicle interiors.",
+    "description": "We clean and maintain vehicle interiors to keep them looking and smelling fresh.",
+    "imageCover": "vehicle-furniture-cleaning.jpg",
+    "category": "vehicle services"
+  },
+  {
+    "servicename": "Easy Cleaning",
+    "servicePrice": 18,
+    "summary": "Quick and convenient cleaning for your vehicle.",
+    "description": "Our easy cleaning service offers a fast and efficient way to refresh your vehicle's appearance.",
+    "imageCover": "vehicle-easy-cleaning.jpg",
+    "category": "vehicle services"
+  },
+  {
+    "servicename": "Farms",
+    "servicePrice": 60,
+    "summary": "Comprehensive cleaning and maintenance for farms.",
+    "description": "We offer farm cleaning and maintenance services to keep your agricultural spaces in top shape.",
+    "imageCover": "farm-cleaning.jpg",
+    "category": "other services"
+  },
+  {
+    "servicename": "Pest Control",
+    "servicePrice": 25,
+    "summary": "Effective pest control services.",
+    "description": "Our pest control services help you get rid of unwanted pests and protect your property.",
+    "imageCover": "pest-control.jpg",
+    "category": "other services"
+  },
+  {
+    "servicename": "After Building",
+    "servicePrice": 70,
+    "summary": "Post-construction cleaning and debris removal.",
+    "description": "We specialize in cleaning up after construction projects to make your space ready for use.",
+    "imageCover": "after-building-cleaning.jpg",
+    "category": "other services"
+  }
+]
