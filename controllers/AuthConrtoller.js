@@ -75,13 +75,6 @@ exports.protect = async (req, res, next) => {
       return res.status(401).json({ message: "Unauthorized: Invalid token" });
     }
 
-    // if (currentUser.changedPasswordAfter(decoded.iat)) {
-    //   return (
-    //   res.status(401).json({ message: "User recently changed password! Please log in again.",})
-    //   )
-    // }
-
-    // GRANT ACCESS TO PROTECTED ROUTE
     req.user = currentUser;
     next();
   } catch (error) {

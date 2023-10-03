@@ -1,8 +1,7 @@
 const User = require("./../models/userModel");
 const bcrypt = require("bcrypt");
-const catchAsync = require("../utilies/CatchAysnc");
-const AppError = require("../utilies/AppError");
-
+const catchAsync = require("../utils/CatchAysnc");
+const AppError = require("../utils/AppError");
 
 exports.getAllUsers = async (req, res, next) => {
   const users = await User.find();
@@ -92,17 +91,17 @@ exports.deleteUser = catchAsync(async (req, res, next) => {
   });
 });
 
-// exports.updateMe = async (req, res, next) => {
+exports.updateMe = async (req, res, next) => {
 
-//   const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body, {
-//     new: true,
-//     runValidators: true
-//   });
+  const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true
+  });
 
-//   res.status(200).json({
-//     status: 'success',
-//     data: {
-//       user: updatedUser
-//     }
-//   });
-// };
+  res.status(200).json({
+    status: 'success',
+    data: {
+      user: updatedUser
+    }
+  });
+};

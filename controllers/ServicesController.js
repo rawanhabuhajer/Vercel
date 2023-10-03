@@ -1,39 +1,7 @@
 const Service = require("../models/ServicesModal");
-const multer = require("multer");
+const cloudinary = require("../utils/cloudinary");
+const upload = require("../utils/Multer");
 const sharp = require("sharp");
-const catchAysnc = require("../utilies/CatchAysnc");
-
-// const multerStorage = multer.memoryStorage();
-
-// const multerFilter = (req, file, cb) => {
-//   if (file.mimetype.startsWith("image")) {
-//     cb(null, true);
-//   } else {
-//     cb(new AppError("Not an image! Please upload only images.", 400), false);
-//   }
-// };
-
-// const upload = multer({
-//   storage: multerStorage,
-//   fileFilter: multerFilter,
-// });
-
-// exports.uploadServiceImges = upload.fields([
-//   { name: "imageCover", maxCount: 1 },
-//   { name: "images", maxCount: 3 },
-// ]);
-
-// exports.resizeServiceImg = catchAysnc(async (req, res, next) => {
-//   if (!req.files.imageCover || !req.files.images) return next();
-
-//   // 1) Cover image
-//   req.body.imageCover = `service-${req.params.id}-${Date.now()}-cover.jpeg`;
-//   await sharp(req.files.imageCover[0].buffer)
-//     .resize(50, 50)
-//     .toFormat("jpeg")
-//     .jpeg({ quality: 90 })
-//     .toFile(`public/img/services/${req.body.imageCover}`);
-// });
 
 exports.getAllServices = async (req, res, next) => {
   const services = await Service.find();
@@ -64,11 +32,14 @@ exports.getService = async (req, res, next) => {
 
 exports.createService = async (req, res, next) => {
   try {
+    const result = await cloudinary.uploader.upload(req.file.path);
     const { servicename, servicePrice, category } = req.body;
     const newService = await Service.create({
       servicename,
       servicePrice,
       category,
+      imageCover: result.secure_url,
+      cloudinary_id: result.public_id,
     });
 
     res.status(201).json({
@@ -89,7 +60,18 @@ exports.createService = async (req, res, next) => {
 // };
 
 exports.updateService = async (req, res, next) => {
-  const service = await Service.findByIdAndUpdate(req.params.id, req.body, {
+  let service = await Service.findById(req.params.id);
+  await cloudinary.uploader.destroy(service.cloudinary_id);
+
+  let result;
+  if (req.file) {
+    result = await cloudinary.uploader.upload(req.file.path);
+  }
+  const data = {
+    imageCover: result?.secure_url || service.imageCover,
+    cloudinary_id: result?.public_id || service.cloudinary_id,
+  };
+  service = await Service.findByIdAndUpdate(req.params.id, data, {
     new: true,
     runValidators: true,
   });

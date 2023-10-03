@@ -4,119 +4,179 @@
     "servicePrice": 5,
     "summary": "Thorough deep cleaning for your home.",
     "description": "Our home deep cleaning service includes cleaning every nook and cranny of your house, leaving it spotless.",
-    "imageCover": "home-deep-cleaning.jpg",
-    "category": "home services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/deep_k9qpb9.png",
+    "category": "home services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372485/pexels-tima-miroshnichenko-6195125_ppwxr0.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372484/pexels-tima-miroshnichenko-6195284_n8yj9e.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372483/pexels-karolina-grabowska-4239091_q5ju0e.jpg"]
   },
   {
     "servicename": "Furniture",
     "servicePrice": 15,
     "summary": "Professional furniture cleaning and maintenance.",
     "description": "We provide expert furniture cleaning and maintenance services to keep your furniture looking new.",
-    "imageCover": "furniture-cleaning.jpg",
-    "category": "home services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/furnature_bs1bq9.png",
+    "category": "home services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/istockphoto-1146967802-2048x2048_hitpaw.com_mxhgei.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/pexels-jesus-arias-4401535_x3f9ct.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/istockphoto-168614938-2048x2048-transformed_qjcxg4.jpg"]
   },
   {
     "servicename": "Laundry",
     "servicePrice": 10,
     "summary": "Convenient laundry service for your garments.",
     "description": "Our laundry service ensures your clothes are cleaned, folded, and ready for you to wear.",
-    "imageCover": "laundry-service.jpg",
-    "category": "home services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/landry-home_dnpoun.png",
+    "category": "home services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372804/pexels-liliana-drew-9462667_zck6yh.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372806/pexels-tima-miroshnichenko-8774640_arqt4x.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372804/pexels-ron-lach-10558192_ymgvaa.jpg"]
   },
   {
     "servicename": "Pools",
     "servicePrice": 40,
     "summary": "Pool cleaning and maintenance.",
     "description": "We specialize in pool cleaning and maintenance to keep your pool crystal clear and safe.",
-    "imageCover": "pool-cleaning.jpg",
-    "category": "home services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368341/pool_uymlx5.png",
+    "category": "home services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695376768/istockphoto-168615020-2048x2048_hitpaw.com_qq8umz.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695376767/istockphoto-827567178-1024x1024_hitpaw.com_bx25vq.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695376767/istockphoto-493060184-2048x2048_hitpaw.com_cffjui.jpg"]
   },
   {
-    "servicename": "Organizing Cabinets",
+    "servicename": "Cabinets",
     "servicePrice": 20,
     "summary": "Efficient cabinet organization services.",
     "description": "We help you declutter and organize your cabinets, making your kitchen or storage spaces more functional.",
-    "imageCover": "cabinet-organization.jpg",
-    "category": "home services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/cabines-home_od6qp8.png",
+    "category": "home services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375344/istockphoto-1312193932-2048x2048_hitpaw.com_qapstw.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375344/istockphoto-1280076909-2048x2048_hitpaw.com_qsqd1t.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375344/istockphoto-1185911923-2048x2048_hitpaw.com_lfq7a9.jpg"]
   },
   {
     "servicename": "Gardens",
     "servicePrice": 25,
     "summary": "Professional garden maintenance and landscaping.",
     "description": "Our garden services include landscaping, maintenance, and design to enhance your outdoor spaces.",
-    "imageCover": "garden-maintenance.jpg",
-    "category": "home services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/gardens_oqvffh.png",
+    "category": "home services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695376767/istockphoto-951855414-2048x2048_hitpaw.com_v5fak0.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695376766/istockphoto-1211811507-2048x2048_hitpaw.com_jngjnt.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695376766/istockphoto-1149590472-2048x2048_hitpaw.com_myjjna.jpg"]
   },
   {
     "servicename": "Deep Cleaning",
     "servicePrice": 50,
     "summary": "Thorough deep cleaning for your office space.",
     "description": "We provide deep cleaning services to ensure a clean and hygienic working environment.",
-    "imageCover": "office-deep-cleaning.jpg",
-    "category": "office services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/office-deep_ywuvss.png",
+    "category": "office services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372485/pexels-tima-miroshnichenko-6195288_f41oev.jpg" ,"https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372801/pexels-michelangelo-buonarroti-4176061_ysljb9.jpg"
+    , "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372802/pexels-michelangelo-buonarroti-4176417_vwbbui.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372801/pexels-michelangelo-buonarroti-4176305_dhkhbj.jpg"]
   },
   {
     "servicename": "Furniture",
     "servicePrice": 20,
     "summary": "Professional office furniture cleaning and maintenance.",
     "description": "We specialize in cleaning and maintaining office furniture to keep your workspace in top condition.",
-    "imageCover": "office-furniture-cleaning.jpg",
-    "category": "office services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/office-furnature_po7ufp.png",
+    "category": "office services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/istockphoto-168614938-2048x2048-transformed_qjcxg4.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/pexels-jesus-arias-4401535_x3f9ct.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/istockphoto-168614938-2048x2048-transformed_qjcxg4.jpg"]
   },
   {
     "servicename": "Windows",
     "servicePrice": 15,
     "summary": "Efficient window cleaning for homes and offices.",
     "description": "Our window cleaning service ensures crystal clear windows for a brighter space.",
-    "imageCover": "window-cleaning.jpg",
-    "category": "office services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368342/window_cjeoes.png",
+    "category": "office services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372811/nuno-silva-Rcsa_Rg77Tc-unsplash_anae7s.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372812/priscilla-du-preez-BuDD1HGco-4-unsplash_rkyjl8.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372808/lenzil-gonsalves-ZWFSE7o2ovk-unsplash_yrsynn.jpg"]
+  },
+  {
+    "servicename": "Organizing Cabinets",
+    "servicePrice": 20,
+    "summary": "Efficient cabinet organization services.",
+    "description": "We help you declutter and organize your cabinets, making your kitchen or storage spaces more functional.",
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/cabines-home_od6qp8.png",
+    "category": "office services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375346/pexels-blue-bird-7218515_fcyfql.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375345/istockphoto-149291413-2048x2048_hitpaw.com_ldvlpb.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375345/pexels-andrea-piacquadio-3791185_nndgs3.jpg"]
   },
   {
     "servicename": "Deep Cleaning",
     "servicePrice": 35,
     "summary": "Thorough deep cleaning for your vehicle.",
     "description": "We provide comprehensive cleaning for your vehicle, inside and out.",
-    "imageCover": "vehicle-deep-cleaning.jpg",
-    "category": "vehicle services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/car-deep_al65a8.png",
+    "category": "vehicle services",
+    "images": [
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1694947552/pexels-pixabay-372810_lmpyjl.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1694947553/pexels-tima-miroshnichenko-6873079_lbcg1a.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1694947551/pexels-pixabay-210627_olzgf6.jpg"
+    ]
   },
   {
     "servicename": "Furniture",
     "servicePrice": 12,
     "summary": "Professional cleaning for vehicle interiors.",
     "description": "We clean and maintain vehicle interiors to keep them looking and smelling fresh.",
-    "imageCover": "vehicle-furniture-cleaning.jpg",
-    "category": "vehicle services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/car-f_tqvuao.png",
+    "category": "vehicle services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/istockphoto-642345902-2048x2048-transformed_jefxxs.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372481/istockphoto-615706444-2048x2048_hitpaw.com_zjzrzw.jpg", 
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372480/istockphoto-1663250795-1024x1024_hitpaw.com_yanfzi.jpg"]
   },
   {
     "servicename": "Easy Cleaning",
     "servicePrice": 18,
     "summary": "Quick and convenient cleaning for your vehicle.",
     "description": "Our easy cleaning service offers a fast and efficient way to refresh your vehicle's appearance.",
-    "imageCover": "vehicle-easy-cleaning.jpg",
-    "category": "vehicle services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/esay_kndkur.png",
+    "category": "vehicle services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372487/pexels-torque-detail-7154635_f47oo1.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372486/pexels-esmihel-muhammad-14615260_xpoycs.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695372487/pexels-torque-detail-7154623_l2xykh.jpg"]
   },
   {
     "servicename": "Farms",
     "servicePrice": 60,
     "summary": "Comprehensive cleaning and maintenance for farms.",
     "description": "We offer farm cleaning and maintenance services to keep your agricultural spaces in top shape.",
-    "imageCover": "farm-cleaning.jpg",
-    "category": "other services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368340/farms_hjhch3.png",
+    "category": "other services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375348/istockphoto-1372325249-2048x2048_hitpaw.com_mvzfea.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375347/istockphoto-1320829343-2048x2048_hitpaw.com_g6ikge.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375348/istockphoto-1284965521-2048x2048_hitpaw.com_eoafg9.jpg"]
   },
   {
     "servicename": "Pest Control",
     "servicePrice": 25,
     "summary": "Effective pest control services.",
     "description": "Our pest control services help you get rid of unwanted pests and protect your property.",
-    "imageCover": "pest-control.jpg",
-    "category": "other services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368341/pestt_glsqka.png",
+    "category": "other services",
+    "images": ["https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375347/istockphoto-1267380230-2048x2048_hitpaw.com_vhyhxe.jpg",
+     "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375346/istockphoto-1414982124-2048x2048_hitpaw.com_qqkigw.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375345/istockphoto-1243647733-2048x2048_hitpaw.com_hwt0jn.jpg"]
   },
   {
     "servicename": "After Building",
     "servicePrice": 70,
     "summary": "Post-construction cleaning and debris removal.",
     "description": "We specialize in cleaning up after construction projects to make your space ready for use.",
-    "imageCover": "after-building-cleaning.jpg",
-    "category": "other services"
+    "imageCover": "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695368343/after_teawtu.png",
+    "category": "other services",
+    "images": [
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375349/istockphoto-1300553713-2048x2048_hitpaw.com_elk0hl.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375349/istockphoto-1493790022-2048x2048_hitpaw.com_iutsrq.jpg",
+      "https://res.cloudinary.com/dmoazz2zg/image/upload/v1695375350/istockphoto-1193252220-2048x2048_hitpaw.com_te7guh.jpg"
+    ]
   }
 ]

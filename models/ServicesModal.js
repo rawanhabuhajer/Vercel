@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const servicesSchema = new Schema({
   category: {
     type: String,
-    required: true,
+    // required: true,
     enum: [
       "home services",
       "office services",
@@ -16,16 +16,15 @@ const servicesSchema = new Schema({
   servicename: {
     type: String,
     required: [true, "A service must have a name"],
-    unique: true,
   },
   servicePrice: {
     type: Number,
-    required: [true, "A service must have a price"],
+    // required: [true, "A service must have a price"],
   },
   summary: {
     type: String,
     trim: true,
-    required: [true, "A service must have a description"],
+    // required: [true, "A service must have a description"],
   },
   description: {
     type: String,
@@ -34,6 +33,9 @@ const servicesSchema = new Schema({
   imageCover: {
     type: String,
     required: [true, "A service must have a cover image"],
+  },
+  cloudinary_id: {
+    type: String,
   },
   images: [String],
   createdAt: {

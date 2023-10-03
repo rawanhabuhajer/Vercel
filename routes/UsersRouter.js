@@ -19,6 +19,6 @@ router
     UsersController.deleteUser
   );
 
-// router.patch('/updateMe/:id', UsersController.updateMe);
+ router.patch('/updateMe/:id', UsersController.updateMe);
 
 module.exports = router;

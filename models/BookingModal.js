@@ -13,11 +13,15 @@ const bookingSchema = new mongoose.Schema({
   },
   price: {
     type: Number,
-    require: [true, "Booking must have a price."],
+    required: [true, "Booking must have a price."],
   },
   time: {
     type: String,
-    require: [true, "Booking must have a time."],
+    required: [true, "Booking must have a time."],
+  },
+  location: {
+    type: String,
+    required: [true, "Booking must have a location."],
   },
   date: {
     type: Date,

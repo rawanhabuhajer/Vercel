@@ -45,7 +45,7 @@ const expertSchema = new Schema({
   },
   PhoneNumber: {
     type: String,
-    require:true
+    require: true,
   },
   // availability: {
   //   type: Boolean,
@@ -53,10 +53,19 @@ const expertSchema = new Schema({
   location: {
     type: String,
   },
-  tel:{
-    type:String,
-    require:true
-  }
+  tel: {
+    type: String,
+    require: true,
+  },
+  services: {
+    type: [String],
+  },
+  review: {
+    type: Number,
+  },
+  gender: {
+    type: String,
+  },
 });
 
 expertSchema.statics.signup = async function (expertname, email, password) {
